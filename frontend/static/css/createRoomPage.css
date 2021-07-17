@@ -1,0 +1,150 @@
+.mid-container {
+    margin-top: -10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#guest-power-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#guest-power-container button {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+#guest-power-container button.selected {
+    background: #2aa0d1;
+}
+
+#guest-power-container .button-container {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+}
+
+.creating-input {
+    font-size: 1rem;
+    width: 170px;
+    padding: .3rem;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+    text-align: center;
+    font-weight: bold;
+}
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.create-buttons {
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: .5rem .7rem;
+    margin: 5px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+.create-buttons:active {
+    transform: translateY(1px);
+}
+
+#votestoskip::placeholder {
+    color: rgba(0, 0, 0, .6);
+}
+
+.circle-div {
+    background-color: white;
+    border-radius: 50%;
+    width: 31px;
+    height: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#song-info-container img {
+    max-width: 300px;
+}
+
+#song-info-container {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.song-info-span {
+    text-align: center;
+    font-weight: bold;
+    word-spacing: 0px;
+}
+
+#play-setting-container {
+    margin-top: 2rem;
+}
+
+#play-setting-container button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.25rem;
+    outline: none;
+    cursor: pointer;
+}
+
+#play-setting-container button:hover {
+    color: white;
+}
+
+#play-bar {
+    position: relative;
+    margin: 1rem;
+    width: 400px;
+    height: 5px;
+    background-color: rgba(0, 0, 0, .6);
+    border-radius: 10px;
+   
+}
+
+#play-time {
+    position: absolute;
+    border-radius: 10px;
+    background-color: white;
+    height: 100%;
+    z-index: 1;
+}
+
+#copy-button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+}
+
+#copy-button:hover{
+    color: white;
+}
+
+#copy-button:active{
+    font-size: 10px;
+}
