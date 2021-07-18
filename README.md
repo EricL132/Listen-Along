@@ -1,5 +1,5 @@
 # Spotify-Listen-Along
-#### Live demo on https://listenalong.herokuapp.com/  
+#### Live demo on https://spotify.erics.software/  
 Site may take 30 seconds to render on first request due to free plan on hosting platform
 #### **Utilizes Spotify Api https://developer.spotify.com/documentation/web-api/reference/** 
 ## Built with
