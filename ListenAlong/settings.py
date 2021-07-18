@@ -23,7 +23,7 @@ load_dotenv()
 SECRET_KEY = os.getenv('SECRETKEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['.spotify.erics.software','localhost']
 
